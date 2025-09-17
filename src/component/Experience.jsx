@@ -51,10 +51,22 @@ const Experience = () => {
                         {exp.company}
                       </h4>
 
-                      {/* Highlight */}
-                      <p className="text-gray-300 mb-6 leading-relaxed" style={{fontFamily: 'Montserrat, sans-serif'}}>
-                        {exp.highlight}
-                      </p>
+                {/* Highlights: ordered list (works if exp.highlight is array; falls back to paragraph) */}
+                {Array.isArray(exp.highlight) ? (
+                  <ol className="text-gray-300 mb-6 leading-relaxed list-decimal pl-6 space-y-2 marker:text-teal-400">
+                    {exp.highlight.map((h, i) => (
+                      <li key={i}>{h}</li>
+                    ))}
+                  </ol>
+                ) : (
+                  <p
+                    className="text-gray-300 mb-6 leading-relaxed"
+                    style={{ fontFamily: "Montserrat, sans-serif" }}
+                  >
+                    {exp.highlight}
+                  </p>
+                )}
+
 
                       {/* Technologies */}
                       <div className="flex flex-wrap gap-2">

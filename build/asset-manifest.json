@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vyomaportfolio/static/css/main.e001b969.css",
-    "main.js": "/vyomaportfolio/static/js/main.f8299514.js",
+    "main.js": "/vyomaportfolio/static/js/main.fe12a236.js",
     "static/media/montserrat-latin-ext-600-normal.woff": "/vyomaportfolio/static/media/montserrat-latin-ext-600-normal.c468c922c2cde6cb0a42.woff",
     "static/media/montserrat-latin-ext-500-normal.woff": "/vyomaportfolio/static/media/montserrat-latin-ext-500-normal.3fdb8a9d01d93cc3aa42.woff",
     "static/media/montserrat-latin-ext-400-normal.woff": "/vyomaportfolio/static/media/montserrat-latin-ext-400-normal.89d9bb7d8d46019bbb7b.woff",
@@ -50,10 +50,10 @@
     "static/media/montserrat-vietnamese-500-normal.woff": "/vyomaportfolio/static/media/montserrat-vietnamese-500-normal.e8417c6c86cec1596ca8.woff",
     "index.html": "/vyomaportfolio/index.html",
     "main.e001b969.css.map": "/vyomaportfolio/static/css/main.e001b969.css.map",
-    "main.f8299514.js.map": "/vyomaportfolio/static/js/main.f8299514.js.map"
+    "main.fe12a236.js.map": "/vyomaportfolio/static/js/main.fe12a236.js.map"
   },
   "entrypoints": [
     "static/css/main.e001b969.css",
-    "static/js/main.f8299514.js"
+    "static/js/main.fe12a236.js"
   ]
 }

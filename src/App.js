@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Skills from "./components/Skills";
-import Education from "./components/Education";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Header from "./component/Header";
+import Hero from "./component/Hero";
+import About from "./component/About";
+import Experience from "./component/Experience";
+import Skills from "./component/Skills";
+import Education from "./component/Education";
+import Projects from "./component/Projects";
+import Contact from "./component/Contact";
+import Footer from "./component/Footer";
 
 function App() {
   return (

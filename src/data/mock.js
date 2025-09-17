@@ -17,7 +17,7 @@ export const personalInfo = {
       role: "Full Stack Developer",
       duration: "2023 – 2025",
       highlight: "Built e-commerce pharmacy platform, prescription automation, patient intake forms, secure Node.js backend",
-      technologies: ["React", "Node.js", "MySQL", "Express.js"]
+      technologies: ["React", "gitNode.js", "MySQL", "Express.js"]
     },
     {
       id: 2,

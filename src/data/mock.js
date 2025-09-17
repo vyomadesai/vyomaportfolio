@@ -16,15 +16,26 @@ export const personalInfo = {
       company: "HealthMed Pharmacy",
       role: "Full Stack Developer",
       duration: "2023 – 2025",
-      highlight: "Built e-commerce pharmacy platform, prescription automation, patient intake forms, secure Node.js backend",
-      technologies: ["React", "gitNode.js", "MySQL", "Express.js"]
+      highlight: [
+      "Working on building a responsive e-commerce pharmacy platform focusing on user-friendly online prescription management and medication delivery services using React.js and Tailwind CSS.",
+      "In patient management, implemented features such as automatic prescription refill reminders based on previous refills and medication expiry reminders made it easier for employees to keep track of medications. This automation helped streamline our processes and improve efficiency.",
+      "Created an intake form for collecting patient demographic details, ensuring a seamless onboarding experience and accurate data capture.",
+      "Implemented a server-side application with Node.js, Express.js to handle secure transactions, user authentication, and data processing.",
+      "Managed MySQL databases to ensure reliable and efficient storage of user data, prescription information, and order histories.",
+      "Built multiple product websites using WordPress and design tools (Canva/Figma) to ensure a user-friendly experience and brand consistency across departments. The use of WordPress empowered non-technical teams to manage content, leading to a 90% user satisfaction rate.",
+      ],
+      technologies: ["React", "Node.js", "MySQL", "Express.js", "TailwindCSS"]
     },
     {
       id: 2,
       company: "Suspect Technologies",
       role: "Front End Developer",
       duration: "2022 – 2023",
-      highlight: "Dataset annotation tool with React/Tailwind, backend API integration",
+      highlight: [
+      "Created a web-based application to annotate (face landmark, bounding box) and label machine learning datasets using React and Tailwind CSS",
+      "Integrated backend API with front end UI workflows using NodeJS, Express.JS, MongoDB.",
+      "Developed core functionality of the system enabling users to mark objects within images through the front-end interface. This data is then sent to the backend, processed, and stored in the MongoDB database.",
+      ],
       technologies: ["React", "Tailwind CSS", "JavaScript", "API Integration"]
     },
     {
@@ -32,7 +43,11 @@ export const personalInfo = {
       company: "EyeVerify",
       role: "Front End Developer Intern",
       duration: "2022",
-      highlight: "Real-time image verification front-end with React + Python backend integration",
+      highlight: [
+      "Designed a front-end interface for a real-time image verification system using React, JavaScript, incorporating camera integration and efficient server communication",
+      "Developed direct linkage to a Python-based server, empowering researchers to assess their algorithms across multiple devices, evaluating performance under varying conditions such as lighting and image capture angles and deployed web-stack development to allow users to select and utilize their system's camera for real-time previews.",
+      "Implemented a capture feature, enabling users to take photos and transmit them to a processing server via web protocols.",
+      ],
       technologies: ["React", "Python", "JavaScript", "Real-time Processing"]
     },
     {
@@ -40,7 +55,10 @@ export const personalInfo = {
       company: "Venus Infotech",
       role: "Frontend Developer",
       duration: "2019 – 2020",
-      highlight: "CRM app with React/HTML/CSS",
+      highlight: [
+      "Developed a CRM (Customer Relationship Management) web application by using React.js, HTML5, CSS3, SASS, LESS and JavaScript to automate invoice generation",
+      "Developed various features including contact management, lead tracking, and customer communication, invoice creation, payment tracking, receipt management, inventory tracking and pricing management.",
+      ],
       technologies: ["React", "HTML5", "CSS3", "CRM Systems"]
     },
     {
@@ -48,7 +66,10 @@ export const personalInfo = {
       company: "Machadalo",
       role: "Frontend Developer",
       duration: "2018 – 2019",
-      highlight: "UI platform with analytics dashboards, 40% lead conversion increase",
+      highlight: [
+      "Created, designed, and developed user-friendly and intuitive real time user-interface platform using React.js, JavaScript for the company that improved lead conversions by 40%",
+      "Developed a range of features, such as lead tracking and management, customer relationship management, data visualization, analytics using D3.js and Chart.js and reporting for a hyperlocal advertising company.",
+      ],
       technologies: ["JavaScript", "Analytics", "UI/UX", "Dashboard"]
     },
     {
@@ -56,7 +77,10 @@ export const personalInfo = {
       company: "Redcherry Analytics",
       role: "Frontend Developer",
       duration: "2016 – 2018",
-      highlight: "IoT dashboards with JavaScript/jQuery",
+      highlight: [
+      "Developed real-time dynamic dashboards using JavaScript, HTML, CSS, jQuery for tracking IoT data benefiting prominent clients. These dashboards enabled efficient monitoring of temperature, humidity values, and energy management systems",
+      "Provided insights and actionable information to help improve operational efficiency and reduce downtime.",
+      ],
       technologies: ["JavaScript", "jQuery", "IoT", "Data Visualization"]
     }
   ];

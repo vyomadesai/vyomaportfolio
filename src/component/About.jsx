@@ -7,22 +7,22 @@ const About = () => {
     {
       icon: Code2,
       title: "Frontend Expertise",
-      description: "Specialized in React, Tailwind CSS, and modern JavaScript frameworks"
+      description: "Specialized in React, Tailwind CSS, and modern JavaScript frameworks."
     },
     {
       icon: Database,
       title: "Backend Development",
-      description: "Experienced with Node.js, Express.js, MySQL, and MongoDB"
+      description: "Experienced with Node.js, Express.js, MySQL, and MongoDB."
     },
     {
       icon: Palette,
       title: "UI/UX Focus",
-      description: "Creating responsive, user-friendly interfaces with modern design principles"
+      description: "Creating responsive, user-friendly interfaces with modern design principles."
     },
     {
       icon: Globe,
-      title: "Full Stack Vision",
-      description: "Building scalable applications from frontend to backend"
+      title: "Wordpress Developer",
+      description: "Building scalable wordpress applications."
     }
   ];
 

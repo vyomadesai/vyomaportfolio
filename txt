@@ -1,0 +1,125 @@
+## 🚀 **Setup Instructions**
+
+### **Step 1: Create Project**
+
+```bash
+
+npx create-react-app vyoma-portfolio
+
+cd vyoma-portfolio
+
+```
+
+### **Step 2: Install Dependencies**
+
+```bash
+
+npm install @fontsource/tenor-sans @fontsource/montserrat lucide-react
+
+```
+
+### **Step 3: Setup Tailwind CSS**
+
+```bash
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+```
+
+### **Step 4: Configure tailwind.config.js**
+
+```javascript
+
+/** @type {import('tailwindcss').Config} */
+
+module.exports = {
+
+content: [
+
+"./src/**/*.{js,jsx,ts,tsx}",
+
+],
+
+theme: {
+
+extend: {},
+
+},
+
+plugins: [],
+
+}
+
+```
+
+### **Step 5: Replace Files**
+
+Replace all the files in your src directory with the provided code above.
+
+### **Step 6: Run the Project**
+
+```bash
+
+npm start
+
+```
+
+## 📝 **Key Features Included**
+
+✅ **Responsive Design** - Works on all devices
+
+✅ **Dark Theme** - Modern dark UI with teal/blue accents
+
+✅ **Smooth Animations** - Hover effects and transitions
+
+✅ **Modern Typography** - Tenor Sans + Montserrat fonts
+
+✅ **Interactive Navigation** - Sticky header with scroll tracking
+
+✅ **Tech Stack Icons** - Visual tech skills representation
+
+✅ **Project Filtering** - Filter projects by status
+
+✅ **Social Links** - LinkedIn, GitHub, Email integration
+
+✅ **SEO Ready** - Semantic HTML structure
+
+✅ **Performance Optimized** - Clean, efficient code
+
+## 📞 **Customization Notes**
+
+1. **Update Personal Info**: 
+
+
+
+
+🚀 Setup Instructions
+Step 1: Create Project
+npx create-react-app vyoma-portfolio
+cd vyoma-portfolio
+Step 2: Install Dependencies
+npm install @fontsource/tenor-sans @fontsource/montserrat lucide-react
+npm install -D tailwindcss postcss autoprefixer gh-pages
+npx tailwindcss init -p
+Step 3: Replace ALL Files
+Replace all the above files in their respective locations.
+
+Step 4: Update package.json homepage
+Change YOUR_USERNAME to your actual GitHub username in package.json
+
+Step 5: Run Locally
+npm start
+Step 6: Deploy to GitHub Pages
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/YOUR_USERNAME/vyoma-portfolio.git
+git push -u origin main
+npm run deploy
+🎉 Your portfolio will be live at: https://YOUR_USERNAME.github.io/vyoma-portfolio
+
+Sep 17, 12:03 PM
+
+Copy

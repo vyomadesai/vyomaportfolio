@@ -53,11 +53,11 @@ const Experience = () => {
 
                 {/* Highlights: ordered list (works if exp.highlight is array; falls back to paragraph) */}
                 {Array.isArray(exp.highlight) ? (
-                  <ol className="text-gray-300 mb-6 leading-relaxed list-decimal pl-6 space-y-2 marker:text-teal-400">
+                  <li className="text-gray-300 mb-6 leading-relaxed list-decimal pl-6 space-y-2 marker:text-teal-400">
                     {exp.highlight.map((h, i) => (
                       <li key={i}>{h}</li>
                     ))}
-                  </ol>
+                  </li>
                 ) : (
                   <p
                     className="text-gray-300 mb-6 leading-relaxed"

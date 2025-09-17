@@ -96,7 +96,7 @@ const Skills = () => {
               <div className="text-gray-300 font-medium">Technologies</div>
             </div>
             <div className="text-center p-6 bg-gray-700/30 rounded-xl border border-gray-600">
-              <div className="text-3xl font-bold text-blue-400 mb-2">6+</div>
+              <div className="text-3xl font-bold text-blue-400 mb-2">8+</div>
               <div className="text-gray-300 font-medium">Years Experience</div>
             </div>
             <div className="text-center p-6 bg-gray-700/30 rounded-xl border border-gray-600">

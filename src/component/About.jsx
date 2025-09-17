@@ -22,7 +22,7 @@ const About = () => {
     {
       icon: Globe,
       title: "Wordpress Developer",
-      description: "Building scalable wordpress applications."
+      description: "Building scalable wordpress applications, custom themes/plugins, Gutenberg, WooCommerce, SEO."
     }
   ];
 

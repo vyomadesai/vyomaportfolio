@@ -6,7 +6,7 @@ export const personalInfo = {
     location: "Mumbai, India",
     email: "vyomayjh@gmail.com",
     linkedin: "https://linkedin.com/in/vyomajoshi",
-    github: "https://github.com/vyomajoshi", // placeholder
+    github: "https://github.com/vyomadesai",
     intro: "Frontend Developer transitioning into Full Stack roles, passionate about building responsive, user-friendly, and scalable applications. Experienced across React, Node.js, MySQL, MongoDB, and modern UI/UX practices."
   };
 

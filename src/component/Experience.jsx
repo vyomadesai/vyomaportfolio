@@ -53,11 +53,11 @@ const Experience = () => {
 
                 {/* Highlights: ordered list (works if exp.highlight is array; falls back to paragraph) */}
                 {Array.isArray(exp.highlight) ? (
-                  <li className="text-gray-300 mb-6 leading-relaxed list-decimal pl-6 space-y-2 marker:text-teal-400">
+                  <ul className="text-gray-300 mb-6 leading-relaxed list-disc pl-6 space-y-2 marker:text-teal-400">
                     {exp.highlight.map((h, i) => (
                       <li key={i}>{h}</li>
                     ))}
-                  </li>
+                  </ul>
                 ) : (
                   <p
                     className="text-gray-300 mb-6 leading-relaxed"
@@ -90,9 +90,9 @@ const Experience = () => {
           <div className="mt-16 text-center">
             <div className="bg-gradient-to-r from-teal-400/10 to-blue-400/10 p-8 rounded-2xl border border-gray-700">
               <p className="text-lg text-gray-300 max-w-3xl mx-auto" style={{fontFamily: 'Montserrat, sans-serif'}}>
-                Over 6 years of progressive experience in frontend and full-stack development, 
-                consistently delivering high-quality solutions across healthcare, IoT, analytics, 
-                and e-commerce domains.
+              Over 8+ years of progressive experience in frontend and full-stack development, consistently delivering 
+              high-quality solutions across healthcare, IoT, analytics, and e-commerce domains. 
+              Also have 2 years of experience as a UI/UX developer using WordPress, Figma, and Canva.
               </p>
             </div>
           </div>

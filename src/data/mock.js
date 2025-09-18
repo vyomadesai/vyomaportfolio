@@ -15,34 +15,34 @@ export const personalInfo = {
       id: 1,
       company: "HealthMed Pharmacy",
       role: "Full Stack Developer",
-      duration: "2023 – 2025",
+      duration: "October 2023 – Present",
       highlight: [
-      "Working on building a responsive e-commerce pharmacy platform focusing on user-friendly online prescription management and medication delivery services using React.js and Tailwind CSS.",
-      "In patient management, implemented features such as automatic prescription refill reminders based on previous refills and medication expiry reminders made it easier for employees to keep track of medications. This automation helped streamline our processes and improve efficiency.",
-      "Created an intake form for collecting patient demographic details, ensuring a seamless onboarding experience and accurate data capture.",
-      "Implemented a server-side application with Node.js, Express.js to handle secure transactions, user authentication, and data processing.",
-      "Managed MySQL databases to ensure reliable and efficient storage of user data, prescription information, and order histories.",
-      "Built multiple product websites using WordPress and design tools (Canva/Figma) to ensure a user-friendly experience and brand consistency across departments. The use of WordPress empowered non-technical teams to manage content, leading to a 90% user satisfaction rate.",
+      "Built a responsive e-commerce pharmacy platform with React.js & Tailwind CSS, enabling user-friendly prescription management and medication delivery.",
+      "Automated prescription refill & expiry reminders, improving efficiency and helping staff track medications easily.",
+      "Developed patient intake forms for seamless onboarding and accurate demographic data capture.",
+      "Implemented secure server-side application with Node.js & Express.js for transactions, authentication, and data processing.",
+      "Managed MySQL databases for reliable storage of user data, prescriptions, and order histories.",
+      "Created product websites with WordPress & design tools (Canva/Figma), improving brand consistency and enabling non-technical teams to manage content with 90% user satisfaction.",
       ],
-      technologies: ["React", "Node.js", "MySQL", "Express.js", "TailwindCSS"]
+      technologies: ["React", "Node.js", "MySQL", "Express.js", "MongoDB", "TailwindCSS", "Figma", "Canva", "Wordpress", "UI/UX"]
     },
     {
       id: 2,
       company: "Suspect Technologies",
       role: "Front End Developer",
-      duration: "2022 – 2023",
+      duration: "September 2022 – October 2023",
       highlight: [
       "Created a web-based application to annotate (face landmark, bounding box) and label machine learning datasets using React and Tailwind CSS",
-      "Integrated backend API with front end UI workflows using NodeJS, Express.JS, MongoDB.",
+      "Integrated backend API with front end UI workflows using Node.js, Express.js, MongoDB.",
       "Developed core functionality of the system enabling users to mark objects within images through the front-end interface. This data is then sent to the backend, processed, and stored in the MongoDB database.",
       ],
-      technologies: ["React", "Tailwind CSS", "JavaScript", "API Integration"]
+      technologies: ["React", "Tailwind CSS", "JavaScript", "API Integration", "Express.js", "MongoDB", "Node.js"]
     },
     {
       id: 3,
       company: "EyeVerify",
       role: "Front End Developer Intern",
-      duration: "2022",
+      duration: "Jan 2022 - May 2022",
       highlight: [
       "Designed a front-end interface for a real-time image verification system using React, JavaScript, incorporating camera integration and efficient server communication",
       "Developed direct linkage to a Python-based server, empowering researchers to assess their algorithms across multiple devices, evaluating performance under varying conditions such as lighting and image capture angles and deployed web-stack development to allow users to select and utilize their system's camera for real-time previews.",
@@ -54,34 +54,34 @@ export const personalInfo = {
       id: 4,
       company: "Venus Infotech",
       role: "Frontend Developer",
-      duration: "2019 – 2020",
+      duration: "June 2019 – December 2020",
       highlight: [
       "Developed a CRM (Customer Relationship Management) web application by using React.js, HTML5, CSS3, SASS, LESS and JavaScript to automate invoice generation",
       "Developed various features including contact management, lead tracking, and customer communication, invoice creation, payment tracking, receipt management, inventory tracking and pricing management.",
       ],
-      technologies: ["React", "HTML5", "CSS3", "CRM Systems"]
+      technologies: ["React", "HTML5", "CSS3/SASS/LESS", "CRM Systems"]
     },
     {
       id: 5,
       company: "Machadalo",
       role: "Frontend Developer",
-      duration: "2018 – 2019",
+      duration: "April 2018 – May 2019",
       highlight: [
       "Created, designed, and developed user-friendly and intuitive real time user-interface platform using React.js, JavaScript for the company that improved lead conversions by 40%",
       "Developed a range of features, such as lead tracking and management, customer relationship management, data visualization, analytics using D3.js and Chart.js and reporting for a hyperlocal advertising company.",
       ],
-      technologies: ["JavaScript", "Analytics", "UI/UX", "Dashboard"]
+      technologies: ["React", "CSS", "HTML5", "Analytics", "UI/UX", "Dashboard"]
     },
     {
       id: 6,
       company: "Redcherry Analytics",
       role: "Frontend Developer",
-      duration: "2016 – 2018",
+      duration: "September 2016 – March 2018",
       highlight: [
       "Developed real-time dynamic dashboards using JavaScript, HTML, CSS, jQuery for tracking IoT data benefiting prominent clients. These dashboards enabled efficient monitoring of temperature, humidity values, and energy management systems",
       "Provided insights and actionable information to help improve operational efficiency and reduce downtime.",
       ],
-      technologies: ["JavaScript", "jQuery", "IoT", "Data Visualization"]
+      technologies: ["JavaScript", "jQuery", "IoT", "Data Visualization", "C3.js", "Chart.js"]
     }
   ];
   

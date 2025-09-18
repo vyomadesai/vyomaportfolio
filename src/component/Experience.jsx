@@ -89,6 +89,9 @@ const Experience = () => {
           {/* Experience Summary */}
           <div className="mt-16 text-center">
             <div className="bg-gradient-to-r from-teal-400/10 to-blue-400/10 p-8 rounded-2xl border border-gray-700">
+            <h3 className="text-2xl font-bold text-white mb-4">
+                Professional Journey
+              </h3>
               <p className="text-lg text-gray-300 max-w-4xl mx-auto" style={{fontFamily: 'Montserrat, sans-serif'}}>
               Over 8+ years of progressive experience in frontend and full-stack development, consistently delivering 
               high-quality solutions across healthcare, IoT, analytics, and e-commerce domains. 

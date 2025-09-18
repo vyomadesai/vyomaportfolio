@@ -90,26 +90,11 @@ const Education = () => {
               <h3 className="text-2xl font-bold text-white mb-4">
                 Academic Journey
               </h3>
-              <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed" style={{fontFamily: 'Montserrat, sans-serif'}}>
-                Comprehensive education spanning from Bachelor's to Master's level, with advanced 
-                specialization in Computer Science from University of Missouri, Kansas City. 
-                Strong foundation in engineering principles and modern computing technologies.
+              <p className="text-lg text-gray-300 max-w-4xl mx-auto leading-relaxed" style={{fontFamily: 'Montserrat, sans-serif'}}>
+              Started with a strong foundation in computer engineering at KJ Somaiya, Mumbai, deepened technical expertise at VJTI, Mumbai,
+              and culminated with advanced specialization in computer science at the University of Missouri Kansas City, USA,
+              building a well-rounded base that bridges engineering with modern computing.
               </p>
-            </div>
-            
-            <div className="grid md:grid-cols-3 gap-8 mt-8">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-purple-400 mb-2">MS</div>
-                <div className="text-gray-300 text-sm">Computer Science</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-blue-400 mb-2">M.Tech</div>
-                <div className="text-gray-300 text-sm">Computer Engineering</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-teal-400 mb-2">BE</div>
-                <div className="text-gray-300 text-sm">Computer Engineering</div>
-              </div>
             </div>
           </div>
         </div>

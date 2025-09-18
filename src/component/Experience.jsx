@@ -89,9 +89,11 @@ const Experience = () => {
           {/* Experience Summary */}
           <div className="mt-16 text-center">
             <div className="bg-gradient-to-r from-teal-400/10 to-blue-400/10 p-8 rounded-2xl border border-gray-700">
-              <p className="text-lg text-gray-300 max-w-3xl mx-auto" style={{fontFamily: 'Montserrat, sans-serif'}}>
+              <p className="text-lg text-gray-300 max-w-4xl mx-auto" style={{fontFamily: 'Montserrat, sans-serif'}}>
               Over 8+ years of progressive experience in frontend and full-stack development, consistently delivering 
               high-quality solutions across healthcare, IoT, analytics, and e-commerce domains. 
+              </p>
+              <p className="text-lg text-gray-300 max-w-4xl mx-auto" style={{fontFamily: 'Montserrat, sans-serif'}}>
               Also have 2 years of experience as a UI/UX developer using WordPress, Figma, and Canva.
               </p>
             </div>

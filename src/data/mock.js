@@ -103,11 +103,13 @@ export const personalInfo = {
       { name: "MS SQL", icon: "MS", color: "bg-red-600", level: "Intermediate" }
     ],
     tools: [
+      { name: "Wordpress", icon: "W", color: "bg-gray-600", level: "Expert" },
+      { name: "Figma", icon: "F", color: "bg-gray-400", level: "Intermediate" },
+      { name: "Canva", icon: "C", color: "bg-gray-800", level: "Expert" },
       { name: "D3.js", icon: "D3", color: "bg-orange-600", level: "Advanced" },
       { name: "Chart.js", icon: "📊", color: "bg-pink-500", level: "Advanced" },
       { name: "Tableau", icon: "T", color: "bg-blue-500", level: "Intermediate" },
       { name: "PowerBI", icon: "P", color: "bg-yellow-600", level: "Intermediate" },
-      { name: "Figma", icon: "F", color: "bg-purple-600", level: "Advanced" },
       { name: "GitHub", icon: "G", color: "bg-gray-800", level: "Expert" }
     ]
   };

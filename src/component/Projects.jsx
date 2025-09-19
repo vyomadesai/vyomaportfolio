@@ -1,40 +1,48 @@
-import React, { useState } from 'react';
-import { ExternalLink, Github, Calendar, Play, Archive, Wrench } from 'lucide-react';
-import { projects } from '../data/mock';
+import React, { useState } from "react";
+import {
+  ExternalLink,
+  Github,
+  Calendar,
+  Play,
+  Archive,
+  Wrench,
+} from "lucide-react";
+import { projects } from "../data/mock";
 
 const Projects = () => {
-  const [filter, setFilter] = useState('All');
-  
-  const filters = ['All', 'Live', 'In Development', 'Completed', 'Archived'];
-  
-  const filteredProjects = filter === 'All' 
-    ? projects 
-    : projects.filter(project => project.status === filter);
+  const [filter, setFilter] = useState("All");
+
+  const filters = ["All", "Live", "In Development", "Completed", "Archived"];
+
+  const filteredProjects =
+    filter === "All"
+      ? projects
+      : projects.filter((project) => project.status === filter);
 
   const getStatusColor = (status) => {
     switch (status) {
-      case 'Live':
-        return 'from-green-400 to-teal-400';
-      case 'In Development':
-        return 'from-blue-400 to-purple-400';
-      case 'Completed':
-        return 'from-teal-400 to-blue-400';
-      case 'Archived':
-        return 'from-gray-400 to-gray-600';
+      case "Live":
+        return "from-green-400 to-teal-400";
+      case "In Development":
+        return "from-blue-400 to-purple-400";
+      case "Completed":
+        return "from-teal-400 to-blue-400";
+      case "Archived":
+        return "from-gray-400 to-gray-600";
       default:
-        return 'from-gray-400 to-gray-600';
+        return "from-gray-400 to-gray-600";
     }
   };
 
   const getStatusIcon = (status) => {
     switch (status) {
-      case 'Live':
+      case "Live":
         return Play;
-      case 'In Development':
+      case "In Development":
         return Wrench;
-      case 'Completed':
+      case "Completed":
         return Calendar;
-      case 'Archived':
+      case "Archived":
         return Archive;
       default:
         return Calendar;
@@ -47,13 +55,13 @@ const Projects = () => {
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6" style={{fontFamily: 'Tenor Sans, serif'}}>
+            <h2
+              className="text-4xl md:text-5xl font-bold text-white mb-6"
+              style={{ fontFamily: "Tenor Sans, serif" }}
+            >
               Featured <span className="text-teal-400">Projects</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-teal-400 to-blue-400 mx-auto mb-6"></div>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto" style={{fontFamily: 'Montserrat, sans-serif'}}>
-              A showcase of applications I've built across various domains and technologies
-            </p>
           </div>
 
           {/* Filter Buttons */}
@@ -64,8 +72,8 @@ const Projects = () => {
                 onClick={() => setFilter(filterOption)}
                 className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
                   filter === filterOption
-                    ? 'bg-teal-400 text-gray-900'
-                    : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                    ? "bg-teal-400 text-gray-900"
+                    : "bg-gray-700 text-gray-300 hover:bg-gray-600"
                 }`}
               >
                 {filterOption}
@@ -88,10 +96,13 @@ const Projects = () => {
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="text-6xl text-gray-500/50">📱</div>
                     </div>
-                    
                     {/* Status Badge */}
                     <div className="absolute top-4 right-4">
-                      <div className={`flex items-center space-x-1 bg-gradient-to-r ${getStatusColor(project.status)} text-white px-3 py-1 rounded-full text-xs font-medium`}>
+                      <div
+                        className={`flex items-center space-x-1 bg-gradient-to-r ${getStatusColor(
+                          project.status
+                        )} text-white px-3 py-1 rounded-full text-xs font-medium`}
+                      >
                         <StatusIcon className="w-3 h-3" />
                         <span>{project.status}</span>
                       </div>
@@ -103,8 +114,11 @@ const Projects = () => {
                     <h3 className="text-xl font-bold text-white mb-3 group-hover:text-teal-400 transition-colors">
                       {project.title}
                     </h3>
-                    
-                    <p className="text-gray-300 mb-4 leading-relaxed" style={{fontFamily: 'Montserrat, sans-serif'}}>
+
+                    <p
+                      className="text-gray-300 mb-4 leading-relaxed"
+                      style={{ fontFamily: "Montserrat, sans-serif" }}
+                    >
                       {project.description}
                     </p>
 
@@ -122,7 +136,7 @@ const Projects = () => {
 
                     {/* Project Links */}
                     <div className="flex space-x-4">
-                      {project.liveUrl !== '#' && (
+                      {project.liveUrl !== "#" && (
                         <a
                           href={project.liveUrl}
                           target="_blank"
@@ -133,8 +147,8 @@ const Projects = () => {
                           <span className="text-sm font-medium">Live Demo</span>
                         </a>
                       )}
-                      
-                      {project.githubUrl !== '#' && (
+
+                      {project.githubUrl !== "#" && (
                         <a
                           href={project.githubUrl}
                           target="_blank"
@@ -158,27 +172,41 @@ const Projects = () => {
               <h3 className="text-2xl font-bold text-white mb-4">
                 Project Portfolio Overview
               </h3>
-              <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-8" style={{fontFamily: 'Montserrat, sans-serif'}}>
-                From healthcare platforms to e-commerce solutions, each project represents 
-                a commitment to quality, user experience, and technical excellence.
+              <p
+                className="text-lg text-gray-300 max-w-4xl mx-auto mb-8"
+                style={{ fontFamily: "Montserrat, sans-serif" }}
+              >
+                From healthcare platforms to e-commerce solutions, each project
+                represents a commitment to quality, user experience, and
+                technical excellence.
               </p>
-              
+
               <div className="grid md:grid-cols-4 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-green-400 mb-2">2</div>
-                  <div className="text-gray-300 text-sm font-medium">Live Projects</div>
+                  <div className="text-3xl font-bold text-green-400 mb-2">
+                    2
+                  </div>
+                  <div className="text-gray-300 text-sm font-medium">
+                    Live Projects
+                  </div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-400 mb-2">1</div>
-                  <div className="text-gray-300 text-sm font-medium">In Development</div>
+                  <div className="text-gray-300 text-sm font-medium">
+                    In Development
+                  </div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-teal-400 mb-2">2</div>
-                  <div className="text-gray-300 text-sm font-medium">Completed</div>
+                  <div className="text-gray-300 text-sm font-medium">
+                    Completed
+                  </div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-gray-400 mb-2">1</div>
-                  <div className="text-gray-300 text-sm font-medium">Archived</div>
+                  <div className="text-gray-300 text-sm font-medium">
+                    Archived
+                  </div>
                 </div>
               </div>
             </div>
@@ -190,4 +218,3 @@ const Projects = () => {
 };
 
 export default Projects;
-

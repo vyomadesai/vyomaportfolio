@@ -117,23 +117,23 @@ export const personalInfo = {
   export const education = [
     {
       id: 1,
-      degree: "MS Computer Science",
+      degree: "MS in Computer Science",
       institution: "University of Missouri, Kansas City",
-      year: "2022",
+      year: "July 2022",
       type: "Masters"
     },
     {
       id: 2,
-      degree: "M.Tech Computer Engineering",
+      degree: "M.Tech in Computer Engineering",
       institution: "VJTI, Mumbai",
-      year: "2016",
-      type: "Masters"
+      year: "May 2016",
+      type: "M.Tech"
     },
     {
       id: 3,
-      degree: "BE Computer Engineering",
+      degree: "BE in Computer Engineering",
       institution: "KJ Somaiya, Mumbai",
-      year: "2014",
+      year: "May 2014",
       type: "Bachelors"
     }
   ];
@@ -198,7 +198,27 @@ export const personalInfo = {
       githubUrl: "#", // placeholder
       image: "/api/placeholder/400/250",
       status: "Completed"
-    }
+    },
+    {
+      id: 7,
+      title: "Weather App Platform",
+      description: "Comprehensive healthcare platform with patient management, appointment scheduling, and medical records.",
+      technologies: ["React", "Node.js", "MongoDB", "Express.js"],
+      liveUrl: "https://vedaahc.com",
+      githubUrl: "#", // placeholder
+      image: "/api/placeholder/400/250",
+      status: "Live"
+    },
+    {
+      id: 8,
+      title: "Task Manager App Platform",
+      description: "Comprehensive healthcare platform with patient management, appointment scheduling, and medical records.",
+      technologies: ["React", "Node.js", "MongoDB", "Express.js"],
+      liveUrl: "https://vedaahc.com",
+      githubUrl: "#", // placeholder
+      image: "/api/placeholder/400/250",
+      status: "Live"
+    },
   ];
   
   export const navigationItems = [

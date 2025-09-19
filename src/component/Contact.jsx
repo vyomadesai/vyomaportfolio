@@ -48,9 +48,8 @@ const Contact = () => {
               Get In <span className="text-teal-400">Touch</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-teal-400 to-blue-400 mx-auto mb-6"></div>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto" style={{fontFamily: 'Montserrat, sans-serif'}}>
-              I'm always interested in new opportunities and interesting projects. 
-              Let's connect and discuss how we can work together!
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto" style={{fontFamily: 'Montserrat, sans-serif'}}>
+              I'm always interested in new opportunities and interesting projects.  Let's connect and discuss how we can work together!
             </p>
           </div>
 
@@ -96,7 +95,7 @@ const Contact = () => {
               <h3 className="text-3xl font-bold text-white mb-4">
                 Ready to Start a Project?
               </h3>
-              <p className="text-lg text-gray-300 mb-8 leading-relaxed" style={{fontFamily: 'Montserrat, sans-serif'}}>
+              <p className="text-lg text-gray-300 mb-8 max-w-5xl leading-relaxed" style={{fontFamily: 'Montserrat, sans-serif'}}>
                 Whether you need a responsive website, a full-stack application, or just want to 
                 discuss your next big idea, I'm here to help bring your vision to life. 
                 Let's create something amazing together!

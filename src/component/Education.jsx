@@ -35,9 +35,6 @@ const Education = () => {
               Educational <span className="text-teal-400">Background</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-teal-400 to-blue-400 mx-auto mb-6"></div>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto" style={{fontFamily: 'Montserrat, sans-serif'}}>
-              Strong academic foundation in computer science and engineering
-            </p>
           </div>
 
           {/* Education Grid */}

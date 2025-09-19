@@ -33,6 +33,8 @@ const Skills = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6" style={{fontFamily: 'Tenor Sans, serif'}}>
               Technical <span className="text-teal-400">Skills</span>
             </h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-teal-400 to-blue-400 mx-auto mb-6"></div>
+
           </div>
 
           {/* Skills Grid */}
